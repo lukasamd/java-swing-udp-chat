@@ -97,7 +97,7 @@ public class ChatServer extends Thread
                 	continue;
                 }
                 
-                // Usuwanie klienta
+                // Remove client
                 if (content.equals("EXIT"))
                 {
                 	int index = cIPs.indexOf(clientAddress);
